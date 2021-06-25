@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body,
+html {
+  font-size: 18px;
+  font-family: "Fraunces", serif;
+  height: 100%;
+}
+
+header {
+  height: 100%;
+}
+
+.header-image {
+  height: 100%;
+  background-image: url("/images/desktop/image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-image h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 15px;
+  margin: 90px 0;
+  font-size: 3.5rem;
+}
+
+.down-arrow {
+  display: block;
+  width: 30px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 2rem;
+}
+
+.toggle-button {
+  display: none;
+  position: absolute;
+  top: 1.4rem;
+  right: 1rem;
+}
+
+.navbar-links ul {
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  margin: 2rem;
+  display: block;
+  font-family: "Barlow", sans-serif;
+}
